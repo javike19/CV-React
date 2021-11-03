@@ -1,0 +1,19 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.name{
+    font-weight: bolder;
+}
+
+.experience-card {
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #E5E8E8;
+}
