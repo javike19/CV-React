@@ -9,6 +9,9 @@ export const CV = {
       image: "https://media-exp1.licdn.com/dms/image/C4D03AQGp7X7kIj1wlA/profile-displayphoto-shrink_200_200/0/1603652913156?e=1640217600&v=beta&t=WM7vyId1G0Qi6P-sx7NHRLcQlkycrJBRRao57kR1R7c",
       gitHub: "https://github.com/javike19",
     },
+    aboutMe: {
+      text: "I am passionate about computers and business, and I am also a handball player. I am constantly learning to face the continuous changes in the world of programming, mentality of professional growth and always with a positive attitude. My short-term goal would be to professionalize myself in a company that allows me to grow as a developer. While my long-term goals would be more focused on being able to lead teams and continue to grow as a Full Stack."
+    },
     education: [
       {
         name: "Bootcamp Full Stack Developer",
