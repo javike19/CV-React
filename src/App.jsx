@@ -6,8 +6,10 @@ import Education from "./components/Education/Education";
 import More from "./components/More/More";
 import AboutMe from "./components/aboutMe/AboutMe";
 import { CV } from "./CV/CV";
+import Languages from './components/Languages/Languages';
+import Other from './components/Other/Other';
 
-const {hero, aboutMe, experience, education, habilities} = CV;
+const {hero, aboutMe, experience, education, habilities, languages, other} = CV;
 
 function App() {
   const [showEducation, setShowEducation] = useState(true);
@@ -18,12 +20,12 @@ function App() {
         <AboutMe aboutMe={aboutMe}/>
       </div>
       <button className="custom-btn btn-4"
-      onClick={() => setShowEducation(true)}>Education</button>
+      onClick={() => setShowEducation(true)}>Educación</button>
       <button
               className="custom-btn btn-4"
               onClick={() => setShowEducation(false)}
             >
-              Experience
+              Experiencia
             </button>
       <div>
         {showEducation ? (
@@ -33,6 +35,8 @@ function App() {
         )}
       </div>
       <More habilities={habilities} />
+      <Languages languages={languages} />
+      <Other other={other} />
     </div>
   );
 }

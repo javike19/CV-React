@@ -1,15 +1,15 @@
 import React from 'react';
-import "./More.css";
+import "../More/More.css";
 
-const More = ({habilities}) => {
+const Other = ({other}) => {
     return (
         <div className="more">
             <div className="more-card">
-            <h2>Tecnologías</h2>
-                {habilities.map((item) => {
+            <h2>Otros</h2>
+                {other.map((item) => {
                     return (
                         <div  key={JSON.stringify(item)}>
-                            <p>💻 {item}</p>
+                            <p>⚽ {item}</p>
                         </div>
                     );
                 })}
@@ -18,4 +18,4 @@ const More = ({habilities}) => {
     )
 }
 
-export default More
+export default Other

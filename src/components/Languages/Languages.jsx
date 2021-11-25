@@ -1,15 +1,15 @@
-import React from 'react';
-import "./More.css";
+import React from 'react'
+import "../More/More.css";
 
-const More = ({habilities}) => {
+const Languages = ({languages}) => {
     return (
         <div className="more">
             <div className="more-card">
-            <h2>Tecnologías</h2>
-                {habilities.map((item) => {
+            <h2>Idiomas</h2>
+                {languages.map((item) => {
                     return (
                         <div  key={JSON.stringify(item)}>
-                            <p>💻 {item}</p>
+                            <p>🌎 {item}</p>
                         </div>
                     );
                 })}
@@ -18,4 +18,4 @@ const More = ({habilities}) => {
     )
 }
 
-export default More
+export default Languages

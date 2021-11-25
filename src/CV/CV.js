@@ -8,9 +8,10 @@ export const CV = {
       phone: "(+34) 616938533",
       image: "https://media-exp1.licdn.com/dms/image/C4D03AQGp7X7kIj1wlA/profile-displayphoto-shrink_200_200/0/1603652913156?e=1640217600&v=beta&t=WM7vyId1G0Qi6P-sx7NHRLcQlkycrJBRRao57kR1R7c",
       gitHub: "https://github.com/javike19",
+      portfolio: "https://javike19.github.io/Portfolio-React/",
     },
     aboutMe: {
-      text: "I am passionate about computers and business, and I am also a handball player. I am constantly learning to face the continuous changes in the world of programming, mentality of professional growth and always with a positive attitude. My short-term goal would be to professionalize myself in a company that allows me to grow as a developer. While my long-term goals would be more focused on being able to lead teams and continue to grow as a Full Stack."
+      text: "Soy un apasionado de los ordenadores y los negocios, también soy jugador de balonmano. Aprendo constantemente para hacer frente a los continuos cambios del mundo de la programación. Tengo una mentalidad de crecimiento y siempre mantengo una actitud positiva. Mi objetivo a corto plazo es profesionalizarme en una empresa que me permita crecer como desarrollador. Mientras, mi objetivo a largo plazo está centrado en poder llegar a dirigir equipos y crecer como un profesional Full Stack."
     },
     education: [
       {
@@ -19,30 +20,42 @@ export const CV = {
         where: "Upgrade Hub",
       },
       {
-        name: "Master in Digital Marketing and E-Commerce",
+        name: "Master en Digital Marketing and E-Commerce",
         date: "2021",
         where: "EAE Business School",
       },
       {
-        name: " Higher Technical Certificate in International Trade",
-        date: "2020",
+        name: "Grado superior de Comercio Internacional",
+        date: "2018-2020",
         where: "Universidad Europea",
+      },
+      {
+        name: "Ciencias Políticas",
+        date: "2017-2018",
+        where: "Universidad Complutense",
       },
     ],
     experience: [
       {
-        name: "Deliver",
-        date: "March 2019- February 2020",
-        where: "Amazon",
+        name: "Autónomo ryder",
+        date: "2018 - 2021",
+        where: "Madrid",
         description:
-          "Delivery with personal vehicle.",
+          "Amazon flex, Uber eats, Glovo y Lola Market con vehículo personal.",
       },
       {
-        name: "Deliver",
-        date: "October 2019 - February 2020",
-        where: "Uber Eats",
+        name: "Repartidor y auxiliar de cocina",
+        date: "2017 - 2018",
+        where: "San Sebastián de los Reyes / Madrid",
         description:
-          "Delivery with personal vehicle.",
+          "Telepizza.",
+      },
+      {
+        name: "Entrenador de balonmano",
+        date: "2014 - 2016",
+        where: "San Sebastián de los Reyes / Madrid",
+        description:
+          "Balonmano Sanse.",
       },
     ],
     habilities: [
@@ -50,10 +63,18 @@ export const CV = {
       "React",
       "Javascript",
       "Php",
+      "SQL",
       "Node",
+      "CSS",
       "SCSS",
       "HTML",
       "SEO",
       "Adobe: Premiere, Photoshop, After Effects"
+    ],
+    languages: [
+       "Inglés: Comprensión oral y escrita alta. (Actualmente estudiando para la licencia B2)."
+    ],
+    other: [
+        "Jugador de balonmano - Actualmente."
     ],
   };
